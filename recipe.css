@@ -1,0 +1,178 @@
+* {
+    overflow: auto; /* the * element selects everything in the css code */
+}
+
+body {
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+p.category {
+    background-color: black;
+    color:white;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.center {
+    text-align: center;
+    width: 100%
+}
+
+div.category {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+
+}
+
+div.content {
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-width: 500px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+
+}
+
+h1 {
+    margin-top: 5px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+div.separator {
+    background-color: black;
+    height: 1px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p.des {
+
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+    
+}
+
+div.info {
+    position: relative;
+
+}
+
+img.info {
+    display: block;
+    max-height: 400px;
+    min-height: 200px;
+    background-color: lightgrey;
+    object-fit: cover; /*maintains the aspect ratio of the image */
+}
+
+table.info {
+    position: absolute; 
+    bottom:0; 
+    width: 100%; 
+    color: white; 
+    background-color: #6c829dc0; 
+    height: 80px; 
+    
+}
+
+table.info td {
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+table.info th {
+    vertical-align: bottom;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+div.col {
+    width: 45%;
+    margin-top: 20px;
+}
+
+h2.col {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    border-bottom: 10px solid #6c829d;
+    padding-bottom: 5px;
+    
+}
+
+div.col1 {
+    display: inline-block;
+    margin-right: 10%;
+
+
+}
+
+div.col2 {
+    float: right; /* the size of the instructions will not effect the div.content because it is a float, 
+    find the overflow code in the * section */
+    
+}
+
+div.ing p {
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid lightgrey; /*pixel solid color*/
+    padding: 5px 0px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+div.ing {
+    margin-top: 10px;
+}
+
+table.ins p.num {
+    background-color: #6c829d;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%; /*creates a circle*/
+    margin: 0;
+}
+
+table.ins td.step {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+table.ins td {
+    vertical-align: top;
+}
+
+table.ins tr {
+    height: 40px;  /*minimum or maximum heights will not work for tables */
+}
+
